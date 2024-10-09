@@ -1,0 +1,24 @@
+/* Crabley Game Lab CSS Style Sheet Training */
+
+body {
+	font-family: arial;
+	background-color: rgb(185,179,175);
+	font-size: 24px; /* default is 16px */
+}
+
+h1 {
+	color: rgb(255, 255, 255);
+	background-color: rgb(42, 42, 42);
+}
+
+div.boxnote {
+	height: 150px;
+	width: 300px;
+	background-color: #ee3e80;
+	text-align: center;
+	padding: 10px;
+	margin: 3px;
+	border-width: 5px;
+	border-style: double;
+	border-color: #111111;
+}
