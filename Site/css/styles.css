@@ -22,3 +22,57 @@ div.boxnote {
 	border-style: double;
 	border-color: #111111;
 }
+
+div.listbox {
+	height: 400px;
+	width: 300px;
+	color: rgb(255, 255, 255);
+	background-color: DarkBlue;
+	text-align: center;
+	padding: 10px;
+	margin: 3px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #111111;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;  /* hides the bullets when using background image as a bullet */
+}
+
+li {
+	background: url("../img/GameLabAvatarSmall.png") no-repeat top left;
+	margin: 0px;
+	padding: 15px 0px 15px 10px
+}
+
+div.formbox {
+	height: 300px;
+	width: 450px;
+	color: rgb(0, 0, 0);
+	background-color: Yellow;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	border-width: 10px;
+	border-style: dashed;
+	border-color: #111111;
+}
+
+.title {
+	float: left;
+	width: 50px;
+	text-align: right;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+div.myradiobuttons {
+	width: 250px;
+}
+
+div.textinputs {
+	width: 300px;
+}
