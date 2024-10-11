@@ -15,7 +15,7 @@ h1 {
 	margin: 0px;
 	width: 100%;
 	color: rgb(255, 255, 255);
-	background-color: rgb(42, 42, 42);
+	background-color: rgb(60, 60, 60);
 }
 
 /* put margin on first element to avoid fixed header at the top */
@@ -107,36 +107,39 @@ div.textinputs {
 	background-color: Green;
 }
 
-a.button {
+.buttonZ {
 	height: 35px;
+	border: none;
 	background-image: url("../img/button_sprite.png");
 	background-repeat: no-repeat;
+	background-color: transparent;
 	text-indent: -9999px; /* pushes the text offscreen to the left when image is present */
 	display: inline-block;
+	cursor: pointer;
 }
 
-a#add_to_basket{
+#add_basket{
 	width: 174px;
 	background-position: 0px 0px;
 }
 
-a#framing_options{
+#framing_options{
 	width: 210px;
 	background-position: -175px 0px;
 }
 
-a#add_to_basket:hover{
+#add_basket:hover{
 	background-position: 0px; -40px;
 }
 
-a#framing_options:hover{
+#framing_options:hover{
 	background-position: -175px -40px;
 }
 
-a#add_to_basket:active{
-	background-position: 0px; -80px;
+#add_basket:active{
+	background-position: 0px -80px;
 }
 
-a#framing_options:active{
+#framing_options:active{
 	background-position: -175px -80px;
 }
