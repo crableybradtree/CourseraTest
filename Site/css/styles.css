@@ -6,9 +6,32 @@ body {
 	font-size: 24px; /* default is 16px */
 }
 
+/* annoying fixed position header at the top of the screen */
 h1 {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	padding: 10px;
+	margin: 0px;
+	width: 100%;
 	color: rgb(255, 255, 255);
 	background-color: rgb(42, 42, 42);
+}
+
+/* put margin on first element to avoid fixed header at the top */
+#firstelement {
+	margin-top: 100px;
+}
+
+blockquote {
+	float: right;
+	width: 150px;
+	font-size: 130%
+	font-style: italic;
+	margin: 0px 0px 10px 10px;
+	padding: 10px;
+	border-top: 1px solid #665544;
+	border-bottom: 1px solid #665544;
 }
 
 div.boxnote {
@@ -75,4 +98,45 @@ div.myradiobuttons {
 
 div.textinputs {
 	width: 300px;
+}
+
+#rollover_buttons {
+	margin-top: 20px;
+	border: solid;
+	padding: 10px;
+	background-color: Green;
+}
+
+a.button {
+	height: 35px;
+	background-image: url("../img/button_sprite.png");
+	background-repeat: no-repeat;
+	text-indent: -9999px; /* pushes the text offscreen to the left when image is present */
+	display: inline-block;
+}
+
+a#add_to_basket{
+	width: 174px;
+	background-position: 0px 0px;
+}
+
+a#framing_options{
+	width: 210px;
+	background-position: -175px 0px;
+}
+
+a#add_to_basket:hover{
+	background-position: 0px; -40px;
+}
+
+a#framing_options:hover{
+	background-position: -175px -40px;
+}
+
+a#add_to_basket:active{
+	background-position: 0px; -80px;
+}
+
+a#framing_options:active{
+	background-position: -175px -80px;
 }
