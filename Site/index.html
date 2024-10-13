@@ -8,10 +8,12 @@
 		<link href="css/styles.css" type="text/css" rel="stylesheet">
 	</head>
 	<body>
+		<script src="../lib/bradLib.js"></script>
 		<h1>Crabley Game Lab - Web Training</h1>
 		<p id="firstelement">Finished HTML course from Coursera, doing self-study for CSS and JavaScript.</p>
 		<p>This page has minimal meta data and a simple CSS style sheet.</p>
 		<blockquote>"Life's been good to me so far" -- Joe Walsh</blockquote>
+		<script src="../js/TimeOfDayGreeting.js"></script>
 		<div class="boxnote">
 			<p>This is a box with a special message.</p>
 		</div>
@@ -47,9 +49,10 @@
 		</div>
 		<div id="rollover_buttons">
 			<h2>Rollover Button Example</h2>
-			<button type=button class="buttonZ" id="add_basket">Add to basket</button>
+			<button type=button class="buttonZ" id="flash_screen_b" onclick="bradLib.flashScreen.pf();">Add to Basket</button>
 			<button type=button class="buttonZ" id="framing_options">Framing options</button>
 			<p>End of training page</p>
 		</div>
+		<div id="flash_screen"></div>
 	</body>
 </html>
