@@ -4,20 +4,22 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Crabley Game Lab</title>
 		<link href="css/styles.css" type="text/css" rel="stylesheet">
 	</head>
 	<body>
-		<script src="../lib/bradLib.js"></script>
+		<script src="../lib/brad_lib.js"></script>
 		<h1>Crabley Game Lab - Web Training</h1>
-		<p id="firstelement">Finished HTML course from Coursera, doing self-study for CSS and JavaScript.</p>
+		<p id="first-element">Finished HTML course from Coursera, doing self-study for CSS and JavaScript.</p>
 		<p>This page has minimal meta data and a simple CSS style sheet.</p>
 		<blockquote>"Life's been good to me so far" -- Joe Walsh</blockquote>
-		<script src="../js/TimeOfDayGreeting.js"></script>
-		<div class="boxnote">
+		<h3 id="time-of-day-message">Welcome!</h3>
+		<script src="../js/time_of_day_greeting.js"></script>
+		<div class="box-note">
 			<p>This is a box with a special message.</p>
 		</div>
-		<div class="listbox">
+		<div class="list-box">
 			<h2>Family Name List Sample</h2>
 			<ul>
 				<li>Michele</li>
@@ -26,17 +28,17 @@
 				<li>Hannah</li>
 			</ul>
 		</div>
-		<div class="formbox">
+		<div class="form-box">
 			<h2>Sample Input Form</h2>
-			<div class="textinputs">
+			<div class="text-inputs">
 				<label for="name" class="title">Name:</label>
 				<input type="text" id="name" name="name" autocomplete="name">
 			</div>
-			<div class="textinputs">
+			<div class="text-inputs">
 				<label for="email" class="title">Email:</label>
 				<input type="email" id="email" name="email" autocomplete="email">
 			</div>
-			<div class="myradiobuttons">
+			<div class="my-radio-buttons">
 				<span class="title">Gender:</span>
 				<input type="radio" name="gender" id="male" value="M">
 				<label for="male">M</label>
@@ -47,12 +49,13 @@
 				<input type="submit" value="Submit" id="submit">
 			</div>
 		</div>
-		<div id="rollover_buttons">
+		<div id="rollover-buttons">
 			<h2>Rollover Button Example</h2>
-			<button type=button class="buttonZ" id="flash_screen_b" onclick="bradLib.flashScreen.pf();">Add to Basket</button>
-			<button type=button class="buttonZ" id="framing_options">Framing options</button>
+			<button type=button class="my-buttons" id="add-to-basket">Add to Basket</button>
+			<button type=button class="my-buttons" id="framing-options">Framing options</button>
 			<p>End of training page</p>
 		</div>
-		<div id="flash_screen"></div>
+		<div id="flash-screen"></div> <!-- needed for bradLib flashScreen -->
+		<script src="../js/event_listeners.js"></script> <!-- add at end to catch events on page -->
 	</body>
 </html>

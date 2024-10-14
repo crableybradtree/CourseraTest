@@ -7,7 +7,7 @@ body {
 }
 
 /* used to flash the screen, basically a view port image and turns on then quickly Off via Javascript */
-#flash_screen {
+#flash-screen {
   position: fixed;
   top: 0;
   left: 0;
@@ -31,7 +31,7 @@ h1 {
 }
 
 /* put margin on first element to avoid fixed header at the top */
-#firstelement {
+#first-element {
 	margin-top: 100px;
 }
 
@@ -46,7 +46,7 @@ blockquote {
 	border-bottom: 1px solid #665544;
 }
 
-div.boxnote {
+div.box-note {
 	height: 150px;
 	width: 300px;
 	background-color: #ee3e80;
@@ -58,7 +58,7 @@ div.boxnote {
 	border-color: #111111;
 }
 
-div.listbox {
+div.list-box {
 	height: 400px;
 	width: 300px;
 	color: rgb(255, 255, 255);
@@ -78,12 +78,12 @@ ul {
 }
 
 li {
-	background: url("../img/GameLabAvatarSmall.png") no-repeat top left;
+	background: url("../img/game_lab_avatar_small.png") no-repeat top left;
 	margin: 0px;
 	padding: 15px 0px 15px 10px
 }
 
-div.formbox {
+div.form-box {
 	height: 300px;
 	width: 450px;
 	color: rgb(0, 0, 0);
@@ -104,22 +104,22 @@ div.formbox {
 	padding-left: 10px;
 }
 
-div.myradiobuttons {
+div.my-radio-buttons {
 	width: 250px;
 }
 
-div.textinputs {
+div.text-inputs {
 	width: 300px;
 }
 
-#rollover_buttons {
+#rollover-buttons {
 	margin-top: 20px;
 	border: solid;
 	padding: 10px;
 	background-color: Green;
 }
 
-.buttonZ {
+.my-buttons {
 	height: 35px;
 	border: none;
 	background-image: url("../img/button_sprite.png");
@@ -130,28 +130,28 @@ div.textinputs {
 	cursor: pointer;
 }
 
-#flash_screen_b{
+#add-to-basket{
 	width: 174px;
 	background-position: 0px 0px;
 }
 
-#framing_options{
+#framing-options{
 	width: 210px;
 	background-position: -175px 0px;
 }
 
-#flash_screen_b:hover{
+#add-to-basket:hover{
 	background-position: 0px; -40px;
 }
 
-#framing_options:hover{
+#framing-options:hover{
 	background-position: -175px -40px;
 }
 
-#flash_screen_b:active{
+#add-to-basket:active{
 	background-position: 0px -80px;
 }
 
-#framing_options:active{
+#framing-options:active{
 	background-position: -175px -80px;
 }

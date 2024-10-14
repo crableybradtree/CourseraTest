@@ -4,9 +4,10 @@
  
 var bradLib = bradLib || {};
 
+/* expects a div="flash-screen" element somewhere on the page */
 bradLib.flashScreen = (function() {
 	function flashScreenImplement() {
-		const flashScreen = document.getElementById('flash_screen');
+		const flashScreen = document.getElementById('flash-screen');
 		flashScreen.style.display = 'block';
 		setTimeout(() => {
 			flashScreen.style.display = 'none';

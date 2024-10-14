@@ -1,5 +1,8 @@
 /* Crabley Game Lab - HTML CSS Javascript training
-   -- Brad Crabtree									*/
+   -- Brad Crabtree
+   
+   description: updates the text of a id=time-of-day-message with
+   a time of day related greeting */
 
 var today = new Date();
 var hourNow = today.getHours();
@@ -15,5 +18,6 @@ if (hourNow > 18) {
 	greeting = "Welcome";		
 }
 
-// place header with time of day greeting on page
-document.write('<h3>' + greeting + '</h3>');
+// update text with time of day greeting
+var messageEl = document.getElementById("time-of-day-message");
+messageEl.textContent = greeting;
