@@ -28,34 +28,38 @@
 				<li>Hannah</li>
 			</ul>
 		</div>
-		<div class="form-box">
+		<div class="sample-form-box">
 			<h2>Sample Input Form</h2>
-			<div class="text-inputs">
-				<label for="name" class="title">Name:</label>
-				<input type="text" id="name" name="name" autocomplete="name">
-			</div>
-			<div class="text-inputs">
-				<label for="email" class="title">Email:</label>
-				<input type="email" id="email" name="email" autocomplete="email">
-			</div>
-			<div class="my-radio-buttons">
-				<span class="title">Gender:</span>
-				<input type="radio" name="gender" id="male" value="M">
-				<label for="male">M</label>
-				<input type="radio" name="gender" id="female" value="F">
-				<label for="male">F</label>
-			</div>
-			<div class="submit">
-				<input type="submit" value="Submit" id="submit">
-			</div>
+			<form id="sample-form" action="http://localhost:3000/form_catch.php" method="get">	
+				<div class="text-inputs">
+					<label for="name" class="title">Name:</label>
+					<input type="text" id="name" name="name" autocomplete="name">
+				</div>
+				<div class="text-inputs">
+					<label for="email" class="title">Email:</label>
+					<input type="email" id="email" name="email" autocomplete="email">
+				</div>
+				<div class="my-radio-buttons">
+					<span class="title">Gender:</span>
+					<input type="radio" name="gender" id="male-button" value="M">
+					<label for="male-button">M</label>
+					<input type="radio" name="gender" id="female-button" value="F">
+					<label for="female-button">F</label>
+				</div>
+				<div class="submit-button">
+					<input type="submit" value="Submit" id="sample-submit">
+				</div>
+			</form>
 		</div>
 		<div id="rollover-buttons">
 			<h2>Rollover Button Example</h2>
 			<button type=button class="my-buttons" id="add-to-basket">Add to Basket</button>
 			<button type=button class="my-buttons" id="framing-options">Framing options</button>
-			<p>End of training page</p>
 		</div>
-		<div id="flash-screen"></div> <!-- needed for bradLib flashScreen -->
+		<footer>
+			<p>End of training page</p>
+		</footer>
 		<script src="../js/event_listeners.js"></script> <!-- add at end to catch events on page -->
+		<div id="flash-screen"></div> <!-- needed for bradLib flashScreen not normally displayed -->
 	</body>
 </html>

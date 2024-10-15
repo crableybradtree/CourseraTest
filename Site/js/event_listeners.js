@@ -8,3 +8,11 @@ if (elAddBasketButton !== null) {
 else {
 	window.alert("button not found");
 }
+
+var elSampleInputSubmit = document.getElementById("sample-form");
+if (elSampleInputSubmit !== null) {
+	elSampleInputSubmit.addEventListener("submit", bradLib.formInput.pf, false);
+}
+else {
+	window.alert("button not found");
+}
